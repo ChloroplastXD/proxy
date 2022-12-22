@@ -18,7 +18,7 @@ proxies:
   - {"type":"vmess","name":"SG-vmess-GCP","server":"34.143.239.182","port":28925,"uuid":"c88db53a-f816-492c-aa6d-c1b23bca2d39","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"SG-Shadowsocks-GCP","server":"34.143.239.182","port":52776,"cipher":"aes-256-gcm","password":"wAtLdvty7S"}
   - {"type":"vmess","name":"HK-vmess-GCP","server":"34.150.17.121","port":47106,"uuid":"856a778d-690d-4ebb-9f9e-d486884b099a","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"HK-Shadowsocks-GCP","server":"34.150.17.121","port":32158,"cipher":"aes-256-gcm","password":"XooA20iVCi"}
+  - {"type":"ss","name":"HK-Shadowsocks-GCP","server":"34.150.17.121","port":511049,"cipher":"aes-256-gcm","password":"Sbcj8TJcD7"}
   - {"type":"vmess","name":"JP-vmess-GCP","server":"34.84.41.185","port":37964,"uuid":"da451b73-44f0-4317-cf21-d2d7533b3cbe","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"JP-Shadowsocks-GCP","server":"34.84.41.185","port":17757,"cipher":"aes-256-gcm","password":"m0tDg0jF4s"}
   - {"type":"vmess","name":"IE-vmess-Azure","server":"20.82.227.139","port":14546,"uuid":"a19642e1-fa97-487e-e16f-9911494ba34a","alterId":0,"cipher":"auto","network":"tcp"}
