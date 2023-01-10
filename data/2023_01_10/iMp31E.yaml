@@ -13,8 +13,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"US-vmess-AWS","server":"18.216.221.166","port":18862,"uuid":"e552c87d-5681-41bf-a7f7-eb58df362b71","alterId":0,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"US-Shadowsocks-AWS","server":"18.216.221.166","port":35781,"cipher":"aes-256-gcm","password":"6kILuVo9Vs"}
   - {"type":"vmess","name":"NSW-vmess-Azure","server":"20.70.210.170","port":32937,"uuid":"5b9a26c6-4ac2-4420-8fb7-4b3870730ce4","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"NSW-Shadowsocks-Azure","server":"20.70.210.170","port":34675,"cipher":"aes-256-gcm","password":"aVlfEarOEY"}
   - {"type":"vmess","name":"IE-vmess-Azure","server":"20.82.227.139","port":14546,"uuid":"a19642e1-fa97-487e-e16f-9911494ba34a","alterId":0,"cipher":"auto","network":"tcp"}
@@ -35,8 +33,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -57,8 +53,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -79,8 +73,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -100,8 +92,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -121,8 +111,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -142,8 +130,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
@@ -180,8 +166,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US-vmess-AWS
-      - US-Shadowsocks-AWS
       - NSW-vmess-Azure
       - NSW-Shadowsocks-Azure
       - IE-vmess-Azure
